@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <title>How to Get JSON Data from PHP Script using jQuery Ajax by CodexWorld</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="getUser.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+</head>
+<body>
+<div id = "bigbox">
+    <h2>Fetch User Details via Ajax using jQuery, PHP & MySQL</h2>
+    <input type="text" id="user_id" placeholder="id number" />
+    <input type="button" id="getUser" value="Get Details"/>
+    <div class="user-content" style="display: none;">
+        <h4>User Details</h4>
+        <p>Name: <span id="userName"></span></p>
+        <p>Email: <span id="userEmail"></span></p>
+        <p>Phone: <span id="userPhone"></span></p>
+        <p>Register Date: <span id="userCreated"></span></p>
+    </div>
+
+    <div id='debug'>
+    </div>
+</div>
+
+<form action = "insertIntoDb.php" method = "post" id = "input-area">
+    <h4>Add new user</h4>
+    <label for = "name">Name: <input type = "text" name = "name" id = "name"</label>
+    <label for = "email">Email: <input type = "text" name = "email" id = "email"</label>
+    <label for = "phone">Phone: <input type = "text" name = "phone" id = "phone"</label>
+    <button type = "submit">Submit</button>
+</form>
+</body>
+</html>

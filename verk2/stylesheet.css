@@ -1,0 +1,56 @@
+h2 {
+    font-family: "Bookman Old Style";
+    color: rgb(95, 209, 134);
+}
+
+body {
+    background-color: rgb(181, 255, 227);
+    width:100%;
+}
+
+#bigbox {
+    width:650px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#user_id, #getUser {
+    width:100px;
+    text-align:center;
+    margin-left:50%;
+    margin-right:50%;
+    margin-top:10px;
+}
+
+.user-content {
+    border:4px dotted #5fd186;
+    padding:10px;
+    margin:10px;
+    font-family: "Palatino Linotype";
+}
+
+.user-content h4  {
+    color: #2f9b94;
+}
+
+.user-content p {
+    color: #216e68;
+}
+
+#input-area {
+    width:200px;
+    text-align:center;
+    margin-left:45%;
+    margin-right:50%;
+    margin-top:10px;
+    border:4px dotted #93d13f;
+    background-color: #caff8b;
+    font-family: "Palatino Linotype";
+}
+
+#input-area input, button {
+    margin: 10px;
+}
+
+
+
